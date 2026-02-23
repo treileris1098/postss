@@ -16,5 +16,7 @@
         <input type="text" name="text"><br>
         <input type="submit" value="submit"><br>
     </form>
+
+    <a href="/posts">all posts</a>
 </body>
 </html>
