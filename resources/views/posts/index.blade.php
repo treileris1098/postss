@@ -12,6 +12,7 @@
     <h2>{{$post->name}}</h2>
     <p>{{$post->email}}</p>
     <p>{{$post->text}}</p>
+    <a href="/posts/{{$post->id}}">show</a>
     @endforeach
 </body>
 </html>
