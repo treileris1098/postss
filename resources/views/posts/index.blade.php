@@ -13,6 +13,11 @@
     <p>{{$post->email}}</p>
     <p>{{$post->text}}</p>
     <a href="/posts/{{$post->id}}">show</a>
+    <form action="/posts/{{$post->id}}/delete" method>
+        @csrf
+        @method("delete")
+        <input type="submit" value="delete">
+</form>
     @endforeach
 </body>
 </html>

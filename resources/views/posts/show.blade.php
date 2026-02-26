@@ -10,5 +10,7 @@
     <h2>{{$post->name}}</h2>
     <p>{{$post->email}}</p>
     <p>{{$post->trait_exists}}</p>
+    <br><a href="/posts/{{$post->id}}/edit">edit post</a><br>
+   <br> <a href="/posts/{{$post->id}}/delete">delete</a><br>
 </body>
 </html>
